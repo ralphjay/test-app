@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <p>Papets1</p>
+        <p>Papets123</p>
       </main>
 
     </div>
