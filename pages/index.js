@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <p>Papets123</p>
+      <Image src="https://www.figma.com/file/nYHtL0SXomqfRy9Kd3kl7p/Untitled?node-id=1%3A15"/>
       </main>
 
     </div>
