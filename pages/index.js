@@ -11,10 +11,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-      <Image src="https://www.figma.com/file/nYHtL0SXomqfRy9Kd3kl7p/Untitled?node-id=1%3A15"/>
-      </main>
-
+      <div className={styles.Head}>
+      <img src='/logo.png'
+      alt='Logo' />
+      </div>
     </div>
   )
 }
