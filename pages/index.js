@@ -11,11 +11,21 @@ export default function Home() {
         <link rel="icon" href="/logo.png" />
       </Head>
 
-      
-      <div className={styles.head}>
-      <img src='/logo.png'
-      alt='Logo'/>
-        <p>Papet</p>
+      <div className={styles.image}><img src='/logo.png' alt='Logo' width={50}/></div>
+        <div className={styles.head}>
+            <ul>
+              <li className={styles.navitem}><a>Home</a></li>
+              <li className={styles.navitem}><a>About</a></li>
+              <li className={styles.navitem}><a>Resume</a></li>
+              <li className={styles.navitem}><a>Portfolio</a></li>
+              <li className={styles.navitem}><a>Contact</a></li>
+                <div className={styles.navemail1}>
+                  <li className={styles.navemail}><a>+63 975 1241 286</a></li>
+                  <li className={styles.navemail}><a>/</a></li>
+                  <li className={styles.navemail}><a>Justifiedralph18@gmail.com</a></li>
+                </div>
+            </ul>
+            
       </div>
     </div>
   )

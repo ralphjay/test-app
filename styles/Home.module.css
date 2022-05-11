@@ -116,8 +116,30 @@
   
 }
 
+
 .head{
   background-color: #585858;
   color: aliceblue;
-  width: 100%;
+  padding: 1.5%;
+}
+.image {
+  margin: 1%;
+  float: left;
+
+}
+.navitem{
+  display: block;
+  display: inline;
+  margin-left: 3%;
+}
+.navitem:hover{
+  color: rgb(255, 0, 0);
+}
+.navemail{
+  text-align: right;
+  display: inline;
+  padding: 10px;
+}
+.navemail1{
+  float: right;
 }
