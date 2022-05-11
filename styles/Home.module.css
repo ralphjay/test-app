@@ -116,6 +116,8 @@
   
 }
 
-style.head{
-  background-color: #fafafa;
+.head{
+  background-color: #585858;
+  color: aliceblue;
+  width: 100%;
 }
